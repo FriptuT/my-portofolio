@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: rgb(210, 210, 0);
+    color: #000;
+    text-shadow: 3px 3px 4px rgba(255,255,255,0.7);
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url(/img/binary-yellow.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+main {
+    flex-grow: 2;
+    margin: 0 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+
+}
+
+.sidebar-left, .sidebar-right {
+    flex-basis: 20%;
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+a:visited{
+    color: white;
+}
+
+.portfolio-item {
+    margin: 10px 0;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#me{
+    border-radius: 220px;
+}
+
+main{
+    background-color: black;
+}
+
+.skill-container {
+    width: 100%;
+    background-color: #ddd;
+    margin: 10px 0;
+}
+
+.skill-bar {
+    width: 0%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #f4f404;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+    transition: width 2s;
+}
