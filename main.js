@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 observer.unobserve(bar);
             }
         });
-    }, {threshold: 0.1}); // Adjust threshold as needed
+    }, {threshold: 0.1}); 
 
     var skillBars = document.querySelectorAll('.skill-bar');
     skillBars.forEach(function(bar) {
